@@ -1,0 +1,21 @@
+# Build artifacts
+.dist
+build
+.next
+out
+coverage
+
+# Dependencies
+node_modules
+
+# Misc
+.cache
+.env*
+!.env.example
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Generated files
+*.generated.*
